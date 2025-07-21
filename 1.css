@@ -1,0 +1,122 @@
+ *{
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #121212;
+      color: white;
+      height: 75px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .header-sections{
+      cursor: pointer;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .header-sections:hover {
+      color: rgb(203, 65, 15);
+      transition: 0.3s;
+    }
+    p{
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .menu-name{
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: orangered;
+    }
+    .brand-logo{
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      /*margin-left: -110px;*/
+      border-style: solid;
+      border: orangered;
+      cursor: pointer;     
+    }
+    .search{
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+        height: 25px;
+    }
+
+    .section{
+        text-align: center;
+        padding: 80px 20px; 
+        background: white;
+        height: max-content;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .h1{
+        font-size: 48px; 
+        font-family: Arial;
+    }
+    .h2{
+        font-size: 20px; 
+        color: #555
+    }
+    .start-button{
+        margin-top: 30px; 
+        padding: 15px 30px; 
+        font-size: 18px; 
+        border: none; 
+        background-color: #121212; 
+        color: white; 
+        border-radius:5px; 
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .start-button:hover{
+      background-color: orangered;
+      transition: 0.3s;
+      color: #121212;
+      font-weight: bold;
+    }
+    .start-button:active{
+      transform: scale(0.97);
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .container-photo{
+        height: 200px;
+        width: 200px;
+        padding-top: 30px;
+        border-radius: 100%;
+      
+    }
+    .h3{
+      color: #121212;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 20px;
+  
+    }
+    .section{
+      padding: 60px 20px; 
+      background-color: white; 
+      font-family: Arial, sans-serif;
+    }
+
+ 
